@@ -1,0 +1,172 @@
+
+config dnsmasq
+	option domainneeded '1'
+	option localise_queries '1'
+	option rebind_protection '1'
+	option rebind_localhost '1'
+	option local '/lan/'
+	option domain 'lan'
+	option expandhosts '1'
+	option authoritative '1'
+	option readethers '1'
+	option leasefile '/tmp/dhcp.leases'
+	option nonwildcard '1'
+	option localservice '1'
+	option filter_aaaa '1'
+	option resolvfile '/tmp/resolv.conf.d/resolv.conf.auto'
+	option sequential_ip '1'
+	list server '127.0.0.1#5333'
+
+config dhcp 'lan'
+	option interface 'lan'
+	option ra_slaac '1'
+	list ra_flags 'managed-config'
+	list ra_flags 'other-config'
+	option start '108'
+	option leasetime '24h'
+	option force '1'
+	option limit '45'
+
+config dhcp 'wan'
+	option interface 'wan'
+	option ignore '1'
+
+config odhcpd 'odhcpd'
+	option maindhcp '0'
+	option leasefile '/tmp/hosts/odhcpd'
+	option leasetrigger '/usr/sbin/odhcpd-update'
+	option loglevel '4'
+
+config host
+	option name 'QNAS'
+	option dns '1'
+	option mac '24:5e:be:2d:7e:d9'
+	option ip '192.168.8.108'
+	option leasetime 'infinite'
+
+config host
+	option name 'hikvision'
+	option dns '1'
+	option mac '68:6d:bc:33:00:ba'
+	option ip '192.168.8.110'
+	option leasetime 'infinite'
+
+config host
+	option ip '192.168.8.115'
+	option leasetime 'infinite'
+	option name 'MSiphone'
+	option dns '1'
+	option mac 'c0:cc:f8:81:ce:72'
+
+config host
+	option name 'SfacePro3'
+	option dns '1'
+	option mac '4c:0b:be:04:f5:ac'
+	option ip '192.168.8.118'
+	option leasetime 'infinite'
+
+config host
+	option name 'RedmiK30'
+	option dns '1'
+	option mac 'a4:45:19:df:d7:46'
+	option ip '192.168.8.119'
+	option leasetime 'infinite'
+
+config host
+	option name 'AC88U'
+	option dns '1'
+	option mac '18:31:bf:5c:04:a0'
+	option ip '192.168.8.120'
+	option leasetime 'infinite'
+
+config srvhost
+	option srv '_vlmcs._tcp'
+	option target 'HomeRouter'
+	option port '1688'
+	option class '0'
+	option weight '100'
+
+config host
+	option name 'MiAiSoundbox'
+	option dns '1'
+	option mac 'cc:4b:73:42:aa:86'
+	option ip '192.168.8.145'
+	option leasetime '3d'
+
+config host
+	option dns '1'
+	option mac '44:23:7c:dc:c1:59'
+	option ip '192.168.8.146'
+	option leasetime '3d'
+	option name 'chuangmi1'
+
+config host
+	option name 'chuangmi2'
+	option dns '1'
+	option mac '40:31:3c:40:b3:19'
+	option ip '192.168.8.147'
+	option leasetime '3d'
+
+config host
+	option name 'chuangmi3'
+	option dns '1'
+	option mac '04:cf:8c:31:f8:15'
+	option ip '192.168.8.148'
+	option leasetime '3d'
+
+config host
+	option name 'chuangmi4'
+	option dns '1'
+	option mac '50:ec:50:8c:c9:ec'
+	option ip '192.168.8.149'
+	option leasetime '3d'
+
+config host
+	option mac '04:cf:8c:53:61:8d'
+	option ip '192.168.8.150'
+	option leasetime '3d'
+	option name 'chuangmi5'
+	option dns '1'
+
+config host
+	option name 'chuangmi6'
+	option dns '1'
+	option mac 'b4:43:0d:cb:9a:1d'
+	option ip '192.168.8.151'
+	option leasetime '3d'
+
+config host
+	option name 'chuangmi7'
+	option dns '1'
+	option mac '78:0f:77:61:f9:8f'
+	option ip '192.168.8.152'
+	option leasetime '3d'
+
+config host
+	option mac '34:ce:00:fe:4a:d2'
+	option ip '192.168.8.153'
+	option leasetime '3d'
+	option name 'chuangmi8'
+	option dns '1'
+
+config host
+	option name 'chuangmi9'
+	option dns '1'
+	option mac 'fc:7c:02:8c:d0:75'
+	option ip '192.168.8.154'
+	option leasetime '3d'
+
+config host
+	option name 'chuangmi10'
+	option dns '1'
+	option mac '08:ba:5f:aa:78:36'
+	option ip '192.168.8.155'
+	option leasetime '3d'
+
+config host
+	option mac 'f4:cf:a2:cc:f6:c1'
+	option ip '192.168.8.156'
+	option leasetime '3d'
+	option name 'chuangmi11'
+	option dns '1'
+	

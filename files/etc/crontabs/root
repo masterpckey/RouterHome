@@ -1,0 +1,4 @@
+5 1 * * * /bin/bash -c "sleep $[RANDOM % 180]s"; /usr/share/jd-dailybonus/newapp.sh -w
+1 1 * * * /usr/share/jd-dailybonus/newapp.sh -u
+30 23 * * 5 sleep 5 && touch /etc/banner && reboot
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >>/tmp/ssrplus.log 2>&1

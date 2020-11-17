@@ -1,0 +1,24 @@
+
+config adbyby
+	option daemon '2'
+	option lan_mode '0'
+	option block_ios '0'
+	option mem_mode '1'
+	option update_source '1'
+	option wan_mode '0'
+	option block_douyin '0'
+	list subscribe_url 'https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt'
+	list subscribe_url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
+	list subscribe_url 'https://raw.githubusercontent.com/tofukko/filter/master/Adblock_Plus_list.txt'
+	list subscribe_url 'http://git.oschina.net/halflife/list/raw/master/ad.txt'
+	option enable '1'
+	option cron_mode '0'
+
+config acl_rule
+	option filter_mode 'disable'
+	option ipaddr '192.168.8.108'
+
+config acl_rule
+	option filter_mode 'disable'
+	option ipaddr '192.168.8.110'
+

@@ -1,0 +1,14 @@
+
+config global
+	option auto_run_time '1'
+	option auto_run '1'
+	option auto_update_time '1'
+	option auto_update '1'
+	option stop '0'
+	option failed '0'
+	option remote_url 'https://cdn.jsdelivr.net/gh/NobyDa/Script/JD-DailyBonus/JD_DailyBonus.js'
+	option serverurl 'scu'
+	option serverchan 'SCU27681T779d966afc9b0852bf709a988ffa9e7f5b1a478d302f4'
+	option version '1.83'
+	option cookie 'mba_muid=1602202740674970619138; shshshfpa=0e784b5e-eb8e-ddcc-8d06-e70e64b82b53-1602202747; shshshfpb=nuY2ZGN9S5v7MMO61f8ldNw%3D%3D; 3AB9D23F7A4B3C9B=GIME2WUOLIF5YH7YVZQKXSIG7ANZI7HAZPGQNSZZ7YDCSMZHEP3NSPOL4A7FFYWBGA75DSTCO63G4N5M7QSPQV7DWQ; webp=1; visitkey=53974006823800496; __wga=1602202781706.1602202781706.1602202781706.1602202781706.1.1; __jda=122270672.1602202740674970619138.1602202740.1604480954.1605523853.7; __jdv=122270672%7Cnasplay.myqnapcloud.cn%3A8443%7C-%7Creferral%7C-%7C1605523853063; __jdc=122270672; shshshfp=8a63937b3a9d646d8883a0856d57e1a8; shshshsID=3ae2fecbfb5793cad0d55b2aca858e18_1_1605523856702; jcap_dvzw_fp=c7944c294e5ab9d1ba1f06e94c4691ce$907878749956; TrackerID=VM0hzaEPiX3bx--YjNYWpS_KOPI4YHxxcbt8tfFro3yAXorqHoc4RahwkLDqdO-tdIwsw5FgU1W7EbgAlWKMagJcK2KgUH6OOxY99vPSsW_UvIAEy8dckpgRa1hIov-W; pt_key=AAJfslnkADB7Q2LOEwIEwYbyjebvVTvcBwhn5R0GWRrbl12XjMXgl0cOSb2mDcZH8mK0d1ZkEak; pt_pin=%E9%92%9F%E6%83%85%E4%BA%A6%E6%A2%A6; pt_token=fnb9v5xn; pwdt_id=%E9%92%9F%E6%83%85%E4%BA%A6%E6%A2%A6; sfstoken=tk01meb171d79a8sMisyKzN4MSsz9r4szwZqnWIpnVR4ZC+HKn3HhpZ29/gogwqgoURNft9sZmyMDsFHmGrBw/36hebu; mobilev=html5; __jdb=122270672.5.1602202740674970619138|7.1605523853; mba_sid=16055238530728879572065521804.5; __jd_ref_cls=Mnpm_ComponentApplied; '
+
