@@ -38,11 +38,11 @@ config odhcpd 'odhcpd'
 	option loglevel '4'
 
 config host
-	option name 'QNAS'
 	option dns '1'
 	option mac '24:5e:be:2d:7e:d9'
 	option ip '192.168.8.108'
 	option leasetime 'infinite'
+	option name 'QNASstorage'
 
 config host
 	option name 'hikvision'
@@ -98,75 +98,75 @@ config host
 	option mac '44:23:7c:dc:c1:59'
 	option ip '192.168.8.146'
 	option leasetime '3d'
-	option name 'chuangmi1'
+	option name 'Temperature'
 
 config host
-	option name 'chuangmi2'
 	option dns '1'
 	option mac '40:31:3c:40:b3:19'
 	option ip '192.168.8.147'
 	option leasetime '3d'
+	option name 'Masterbedroom'
 
 config host
-	option name 'chuangmi3'
 	option dns '1'
 	option mac '04:cf:8c:31:f8:15'
 	option ip '192.168.8.148'
 	option leasetime '3d'
+	option name 'chuangmi-remote'
 
 config host
-	option name 'chuangmi4'
 	option dns '1'
 	option mac '50:ec:50:8c:c9:ec'
 	option ip '192.168.8.149'
 	option leasetime '3d'
+	option name 'bedroom'
 
 config host
 	option mac '04:cf:8c:53:61:8d'
 	option ip '192.168.8.150'
 	option leasetime '3d'
-	option name 'chuangmi5'
 	option dns '1'
+	option name 'lighting'
 
 config host
-	option name 'chuangmi6'
 	option dns '1'
 	option mac 'b4:43:0d:cb:9a:1d'
 	option ip '192.168.8.151'
 	option leasetime '3d'
+	option name 'BroadLinkSPmini'
 
 config host
-	option name 'chuangmi7'
 	option dns '1'
 	option mac '78:0f:77:61:f9:8f'
 	option ip '192.168.8.152'
 	option leasetime '3d'
+	option name 'BroadLink_OEM'
 
 config host
 	option mac '34:ce:00:fe:4a:d2'
 	option ip '192.168.8.153'
 	option leasetime '3d'
-	option name 'chuangmi8'
 	option dns '1'
+	option name 'VideoCenter'
 
 config host
-	option name 'chuangmi9'
 	option dns '1'
 	option mac 'fc:7c:02:8c:d0:75'
 	option ip '192.168.8.154'
 	option leasetime '3d'
+	option name 'phicommN1'
 
 config host
-	option name 'chuangmi10'
 	option dns '1'
 	option mac '08:ba:5f:aa:78:36'
 	option ip '192.168.8.155'
 	option leasetime '3d'
+	option name 'hisense'
 
 config host
 	option mac 'f4:cf:a2:cc:f6:c1'
 	option ip '192.168.8.156'
 	option leasetime '3d'
-	option name 'chuangmi11'
 	option dns '1'
-	
+	option name 'WarmOneself'
+
