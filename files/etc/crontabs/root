@@ -1,5 +1,4 @@
-0 4 * * * /etc/coremark.sh
+5 1 * * * sleep 138s; /usr/share/jd-dailybonus/newapp.sh -w
+1 1 * * * /usr/share/jd-dailybonus/newapp.sh -u
 30 23 * * 5 sleep 5 && touch /etc/banner && reboot
 0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >>/tmp/ssrplus.log 2>&1
-5 1 * * * sleep 179s; /usr/share/jd-dailybonus/newapp.sh -w
-1 1 * * * /usr/share/jd-dailybonus/newapp.sh -u
