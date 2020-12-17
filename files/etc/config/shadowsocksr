@@ -65,7 +65,7 @@ config servers
 	option server '01-hi.tw.v2life.club'
 	option switch_enable '1'
 	option alias '台湾 600M Hinet 联通高速直连 流媒体解锁 低倍率 x0.9'
-	option ip '203.66.65.166'
+	option ip '203.66.83.215'
 
 config servers
 	option ws_host 'a.189.cn'
@@ -212,4 +212,21 @@ config servers
 	option server 'j1n1.ddns.inlicloud.com'
 	option switch_enable '1'
 	option ip '120.232.43.114'
+
+config servers
+	option ws_host 'a.189.cn'
+	option type 'v2ray'
+	option local_port '1234'
+	option kcp_param '--nocomp'
+	option server_port '80'
+	option transport 'ws'
+	option hashkey '4c2992f648b3bc9111a368ed196d1390'
+	option tls '0'
+	option ws_path '/videos'
+	option alter_id '1'
+	option grouphashkey '6f778b5116948fc58436841c474682f9'
+	option vmess_id 'b65742f6-0754-398d-b831-0052903efe36'
+	option alias '香港 02-Tc-CN2-×0.9 日常使用 低倍率'
+	option server '02-hk.tc.ssrc.win'
+	option switch_enable '1'
 
