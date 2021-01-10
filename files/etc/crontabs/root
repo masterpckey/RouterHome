@@ -1,3 +1,6 @@
-5 1 * * * sleep 109s; /usr/share/jd-dailybonus/newapp.sh -w
+5 1 * * * sleep 75s; /usr/share/jd-dailybonus/newapp.sh -w
 1 1 * * * /usr/share/jd-dailybonus/newapp.sh -u
-30 23 * * 5 sleep 5 && touch /etc/banner && reboot
+20 17 * * 5 sleep 5 && touch /etc/banner && reboot
+0 2 * * * /usr/share/UnblockNeteaseMusic/update_core.sh 2>&1
+0 6 * * * /usr/share/adbyby/adblock.sh > /tmp/adupdate.log 2>&1
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh >>/tmp/ssrplus.log 2>&1

@@ -1,9 +1,10 @@
 
 config unblockmusic
+	option musicapptype 'kuwo'
 	option endpoint 'http://music.163.com'
 	option enabled '1'
-	option musicapptype 'default'
-	option apptype 'go'
-	option search_limit '3'
+	option apptype 'nodejs'
 	option flac_enabled '1'
+	option force_enabled '1'
+	option autoupdate '1'
 

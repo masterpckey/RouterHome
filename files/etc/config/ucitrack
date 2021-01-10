@@ -67,6 +67,9 @@ config vsftpd
 config xlnetacc
 	option init 'xlnetacc'
 
+config transmission
+	option init 'transmission'
+
 config upnpd
 	option init 'miniupnpd'
 

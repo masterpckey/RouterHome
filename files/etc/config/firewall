@@ -1,104 +1,4 @@
 
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '24'
-	option dest_ip '192.168.8.108'
-	option dest_port '24'
-	option name 'SSH'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp'
-	option src_dport '32'
-	option dest_ip '192.168.8.1'
-	option dest_port '22'
-	option name 'SSH2'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '992'
-	option dest_ip '192.168.8.1'
-	option dest_port '992'
-	option name 'SVPN1'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '5000'
-	option dest_ip '192.168.8.108'
-	option dest_port '8080'
-	option name 'QNAS'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '5555'
-	option dest_ip '192.168.8.1'
-	option dest_port '5555'
-	option name 'SVPN2'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '8000'
-	option dest_ip '192.168.8.110'
-	option dest_port '8000'
-	option name 'Forward8000'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '8443'
-	option dest_ip '192.168.8.1'
-	option dest_port '8443'
-	option name 'Router'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '14860'
-	option dest_ip '192.168.8.108'
-	option dest_port '14860'
-	option name 'SYSD'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option src_dport '32400'
-	option dest_port '32400'
-	option name 'Plex'
-	option dest_ip '192.168.8.108'
-
-config redirect
-	option target 'DNAT'
-	option src 'wan'
-	option dest 'lan'
-	option proto 'tcp udp'
-	option name 'IPDwon'
-	option dest_ip '192.168.8.108'
-	option src_dport '49092'
-	option dest_port '49092'
-
 config defaults
 	option syn_flood '1'
 	option input 'ACCEPT'
@@ -260,6 +160,96 @@ config rule 'esp'
 	option target 'ACCEPT'
 	option src 'wan'
 	option proto 'esp'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '32400'
+	option dest_port '32400'
+	option name 'Plex'
+	option dest_ip '192.168.8.108'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '8443'
+	option dest_ip '192.168.8.1'
+	option dest_port '8443'
+	option name 'Router'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '49091'
+	option dest_port '49091'
+	option name 'IPDwon'
+	option dest_ip '192.168.8.108'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '5000'
+	option dest_ip '192.168.8.108'
+	option dest_port '8080'
+	option name 'QNAS'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '24'
+	option dest_ip '192.168.8.108'
+	option dest_port '24'
+	option name 'SSH'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '14860'
+	option dest_ip '192.168.8.108'
+	option dest_port '14860'
+	option name 'SYSD'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '992'
+	option dest_ip '192.168.8.1'
+	option dest_port '992'
+	option name 'SVPN1'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp udp'
+	option src_dport '5555'
+	option dest_ip '192.168.8.1'
+	option dest_port '5555'
+	option name 'SVPN2'
+
+config redirect
+	option target 'DNAT'
+	option src 'wan'
+	option dest 'lan'
+	option proto 'tcp'
+	option src_dport '32'
+	option dest_ip '192.168.8.1'
+	option dest_port '22'
+	option name 'SSH2'
 
 config include 'miniupnpd'
 	option type 'script'
