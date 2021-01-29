@@ -11,10 +11,14 @@ config adbyby
 	list subscribe_url 'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts'
 	list subscribe_url 'https://raw.githubusercontent.com/tofukko/filter/master/Adblock_Plus_list.txt'
 	list subscribe_url 'http://git.oschina.net/halflife/list/raw/master/ad.txt'
-	option enable '1'
-	option cron_mode '1'
+	option cron_mode '0'
+	option enable '0'
 
 config acl_rule
 	option filter_mode 'disable'
-	option ipaddr '192.168.10.110'
+	option ipaddr '192.168.8.108'
+
+config acl_rule
+	option filter_mode 'disable'
+	option ipaddr '192.168.8.110'
 

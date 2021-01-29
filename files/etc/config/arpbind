@@ -1,11 +1,11 @@
 
 config arpbind
 	option ifname 'br-lan'
-	option ipaddr '192.168.10.120'
-	option macaddr '28:18:78:fe:56:b7'
+	option ipaddr '192.168.8.108'
+	option macaddr '24:5e:be:2d:7e:d9'
 
 config arpbind
 	option ifname 'br-lan'
-	option ipaddr '192.168.10.110'
-	option macaddr '54:e1:ad:e6:52:0f'
+	option ipaddr '192.168.8.110'
+	option macaddr '68:6d:bc:33:00:ba'
 

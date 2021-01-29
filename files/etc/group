@@ -10,4 +10,3 @@ users:x:100:
 network:x:101:
 nogroup:x:65534:
 dnsmasq:x:453:dnsmasq
-transmission:x:224:transmission
