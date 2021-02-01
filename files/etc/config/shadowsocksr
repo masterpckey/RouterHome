@@ -18,7 +18,7 @@ config global
 	option adblock_url 'https://anti-ad.net/anti-ad-for-dnsmasq.conf'
 	option run_mode 'gfw'
 	option pdnsd_enable '0'
-	option global_server 'cfg0a4a8f'
+	option global_server 'nil'
 
 config access_control
 	option lan_ac_mode 'b'
@@ -51,7 +51,8 @@ config server_subscribe
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -68,7 +69,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -86,7 +88,8 @@ config servers
 
 config servers
 	option tls '1'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option alter_id '16'
 	option local_port '1234'
 	option kcp_param '--nocomp'
@@ -105,7 +108,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -123,7 +127,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -141,7 +146,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -158,7 +164,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -176,7 +183,8 @@ config servers
 
 config servers
 	option switch_enable '0'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option alias '香港 01-GCP-500M-直连-×0.9 日常使用 '
 	option server '34.96.174.170'
 	option server_port '80'
@@ -193,7 +201,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -210,7 +219,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -227,7 +237,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'
@@ -244,7 +255,8 @@ config servers
 
 config servers
 	option ws_host 'a.189.cn'
-	option type 'vmess'
+	option type 'v2ray'
+	option v2ray_protocol 'vmess'
 	option local_port '1234'
 	option kcp_param '--nocomp'
 	option server_port '80'

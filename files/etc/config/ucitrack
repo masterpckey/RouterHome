@@ -73,6 +73,9 @@ config upnpd
 config nlbwmon
 	option init 'nlbwmon'
 
+config uuplugin
+	option init 'uuplugin'
+
 config smartdns
 	option init 'smartdns'
 
