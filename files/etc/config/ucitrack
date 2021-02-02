@@ -67,17 +67,17 @@ config vsftpd
 config xlnetacc
 	option init 'xlnetacc'
 
-config upnpd
-	option init 'miniupnpd'
-
-config nlbwmon
-	option init 'nlbwmon'
-
 config uuplugin
 	option init 'uuplugin'
 
 config smartdns
 	option init 'smartdns'
+
+config upnpd
+	option init 'miniupnpd'
+
+config nlbwmon
+	option init 'nlbwmon'
 
 config adbyby
 	option init 'adbyby'
