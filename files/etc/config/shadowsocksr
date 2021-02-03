@@ -67,7 +67,7 @@ config servers
 	option alias '台湾 600M Hinet 联通高速直连 流媒体解锁 低倍率 x0.9'
 	option server '01-hi.tw.v2life.club'
 	option switch_enable '1'
-	option ip '203.66.14.238'
+	option ip '210.71.197.130'
 
 config servers
 	option ws_host 'a.189.cn'

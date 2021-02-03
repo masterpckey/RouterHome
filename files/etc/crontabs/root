@@ -1,4 +1,3 @@
-0 4 * * * /etc/coremark.sh
 1 1 * * * /usr/share/jd-dailybonus/newapp.sh -w
 1 1 * * * /usr/share/jd-dailybonus/newapp.sh -u
 30 23 * * 5 sleep 5 && touch /etc/banner && reboot
