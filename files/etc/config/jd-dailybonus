@@ -9,10 +9,10 @@ config global
 	option remote_url 'https://cdn.jsdelivr.net/gh/NobyDa/Script/JD-DailyBonus/JD_DailyBonus.js'
 	option serverurl 'scu'
 	option serverchan 'SCU27681T779d966afc9b0852bf709a988ffa9e7f5b1a478d302f4'
-	option cookie 'pt_key=AAJgFJNSADBVJWX_P2mmoP9QkcgWeYjzCgG3cM-eKxig6HWC-dU6Qmc9BbDh_Z1hxMYMhVqj9Ek;pt_pin=%E9%92%9F%E6%83%85%E4%BA%A6%E6%A2%A6;'
 	option out '0'
 	option auto_run_time_h '1'
 	option auto_run_time_m '1'
 	option _ '0.4817365286304376'
-	option version '1.93'
+	option version '1.98'
+	option cookie 'pt_key=AAJgaeOaADDJLfYGo0Bt6W5R1r4Tkh7ZhN9RxiXttrQ1nvVpJicppF9y4_g9A2Grsa5znV6142U;pt_pin=%E9%92%9F%E6%83%85%E4%BA%A6%E6%A2%A6;'
 
